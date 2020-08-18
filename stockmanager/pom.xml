@@ -21,7 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <cucumber.version>1.2.5</cucumber.version>
-        <hamcrest-core.version>2.1</hamcrest-core.version>
+        <hamcrest-core.version>2.2</hamcrest-core.version>
     </properties>
 
     <dependencies>
