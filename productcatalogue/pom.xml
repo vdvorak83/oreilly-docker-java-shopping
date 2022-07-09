@@ -10,7 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <dropwizard.version>1.3.9</dropwizard.version>
+        <dropwizard.version>2.0.32</dropwizard.version>
         <guice.version>4.2.2</guice.version>
     </properties>
 
@@ -63,10 +63,8 @@
                         </goals>
                         <configuration>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>uk.co.danielbryant.djshopping.productcatalogue.ProductServiceApplication</mainClass>
                                 </transformer>
                             </transformers>
